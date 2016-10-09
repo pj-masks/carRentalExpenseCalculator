@@ -1,0 +1,71 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CarRental",
+		"_postman_id": "25384648-94df-962c-6d58-60b2a802aee1",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CAR PETROL AC Bangalore-Chennai",
+			"request": {
+				"url": "localhost:8686/calculate-total-expense",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n   \"vehicleType\":\"CAR\",\r\n   \"fuelType\":\"PETROL\",\r\n   \"ac\":true,\r\n   \"itenerary\":\"Bangalore-Chennai\"\r\n}\r\n   \r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CAR PETROL AC Bangalore-Chennai-Bangalore",
+			"request": {
+				"url": "localhost:8686/calculate-total-expense",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n   \"vehicleType\":\"CAR\",\r\n   \"fuelType\":\"PETROL\",\r\n   \"ac\":true,\r\n   \"itenerary\":\"Bangalore-Chennai-Bangalore\"\r\n}\r\n   \r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BUS DIESEL NON-AC Bangalore-Chennai",
+			"request": {
+				"url": "localhost:8686/calculate-total-expense",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n   \"vehicleType\":\"BUS\",\r\n   \"fuelType\":\"DIESEL\",\r\n   \"ac\":false,\r\n   \"itenerary\":\"Bangalore-Chennai\"\r\n}\r\n   \r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
