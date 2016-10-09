@@ -12,3 +12,5 @@ example body is
    "ac":true,
    "itenerary":"Bangalore-Chennai-Bangalore"
 }
+
+Collection of example Postman requests has been included in the CarRental.postman_collection.json file in the project root folder.
